@@ -1,0 +1,35 @@
+#titulo-nav{
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+    background-color: rgb(255, 255, 255);
+  
+}
+nav{
+    background-color: rgba(250, 18, 18, 0.849);
+}
+#card-shadow{
+    top: 20px ;
+    width: 60%;
+    left:  256px;
+
+}
+#footer-danger{
+    position: absolute;
+    margin-top:  100px;
+    width: 100%;
+
+}
+@media only screen and (max-width: 800px){
+    #card-shadow{
+        top: 44px ;
+        width: 90%;
+        left:  19px;
+    }
+    #footer-danger{
+        position: absolute;
+        margin-top:  100px;
+        width: 100%;
+    
+    }
+}
